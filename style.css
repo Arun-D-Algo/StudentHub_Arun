@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#hero{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1{
+    margin: 20px 0;
+}
+
+#hero button{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
+#features{
+    padding: 50px 20px;
+}
+
+#features h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#features div{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+#about{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
