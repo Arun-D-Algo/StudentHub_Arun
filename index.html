@@ -5,34 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Hub</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
+    <!--Navigation bar-->
+
     <nav>
+
         <h2>Student Hub</h2>
 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#about">About</a></li>
         </ul>
+
     </nav>
 
-    <!-- Hero Section -->
+    <!--hero section-->
+
     <section id="hero">
+
         <h1>Student Hub</h1>
 
         <p>
-            Your one-stop platform for notes, study resources, and student updates.
+            Your personal academic operating system.
+            Notes, resources, progress tracking and everything
+            a student needs in one place.
         </p>
 
-        <button>Explore Resources</button>
+        <button id="initiateButton">
+            Initialize Student Hub
+        </button>
+
     </section>
 
-    <!-- Features Section -->
+    <!--quick stats section-->
+
+    <section id="dashboard">
+
+        <h2>Quick Stats</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h3>GitHub Streak</h3>
+                <p>0 Days</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>LeetCode Streak</h3>
+                <p>0 Days</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Projects</h3>
+                <p>0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Tasks Completed</h3>
+                <p>0</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--resources-->
+
     <section id="features">
 
         <h2>Student Resources</h2>
@@ -49,21 +93,21 @@
             <div class="feature-card">
                 <h3>Assignments</h3>
                 <p>
-                    Keep track of deadlines and important submissions.
+                    Keep track of deadlines and submissions.
                 </p>
             </div>
 
             <div class="feature-card">
                 <h3>Study Tools</h3>
                 <p>
-                    Useful websites, calculators, and learning resources.
+                    Useful websites, calculators and learning resources.
                 </p>
             </div>
 
             <div class="feature-card">
                 <h3>Campus Updates</h3>
                 <p>
-                    Stay informed about events, announcements, and activities.
+                    Stay informed about events and announcements.
                 </p>
             </div>
 
@@ -71,23 +115,32 @@
 
     </section>
 
-    <!-- About Section -->
+    <!--about section-->
+
     <section id="about">
 
         <h2>About Student Hub</h2>
 
         <p>
-            Student Hub is designed to help students easily access academic
-            resources, stay organized, and keep up with campus information in
-            one place.
+            Student Hub is my personal student dashboard project.
+            The goal is to bring together academic resources,
+            progress tracking, productivity tools and useful links
+            into one futuristic workspace.
         </p>
 
     </section>
 
-    <!-- Footer -->
+    <!--footer section-->
+
     <footer>
-        <p>© 2026 Student Hub</p>
+
+        <p>
+            Arun's Student Hub
+        </p>
+
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
